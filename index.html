@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kaylee</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @flamekaizar">
+    <meta name="author" content="Afnizar Nur Ghifari, edited by Kaylee Su">
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Nanum+Myeongjo:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'K';
+		}
+	</style>
+</head>
+    <body>
+<!-- Navigation -->
+<div class="main-nav">
+	<div class="container">
+		<header class="group top-nav">
+			<div class="units-row">
+            </div>
+			    <nav id="navbar-1" class="navbar item-nav">
+			    <ul>
+				    <class="active"><a href="#about">About</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+			        <a href="#studies">Case Studies</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#skills">Skills</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#contact">Contact</a>&nbsp;&nbsp;
+			    </ul>
+			</nav>
+		</header>
+	</div>
+</div>
+
+<!-- Introduction -->
+<div class="intro section" id="about">
+    <div class="container">
+        <div class="units-row units-split wrap">
+            <div class="unit-20">
+            </div>
+            <div class="unit-80">
+                <h1>Hi, I'm <span id="typed"></span></h1>				
+            </div>
+            <p>
+                I am pursuing a computer science major and business minor at the University of Texas at Austin. 
+            </p>				
+        </div>
+    </div>
+</div>
+
+<!-- About -->
+<div class="work section second" id="studies">
+	<div class="container">
+		<h2>Projects</h2>
+		<ul class="work-list">
+			<li>2020</li>
+			<li><a href="#">Error.exe</a></li>
+		</ul>
+		<ul class="work-list">
+			<li>2019</li>
+			<li><a href="#">Light Show</a></li>
+		</ul>
+		<!-- <ul class="work-list">
+			<li>2014-2015</li>
+			<li><a href="#">Wego</a></li>
+			<li>UI/UX Designer</li>
+		</ul>
+		<ul class="work-list">
+			<li>2014-2015</li>
+			<li><a href="#">Garuda Indonesia</a></li>
+			<li>System Designer</li> -->
+		</ul>
+	</div>
+</div>
+
+
+	<!-- Case Studies -->
+	<div class="work section second" id="studies">
+		<div class="container">
+			<h2>Case Studies</h2>
+			<ul class="work-list">
+				<li>2020</li>
+				<li><a href="#">Apple Calendar Redesign</a></li>
+				
+			</ul>
+			<!-- <ul class="work-list">
+				<li>2014-2015</li>
+				<li><a href="#">Wego</a></li>
+				<li>UI/UX Designer</li>
+			</ul>
+			<ul class="work-list">
+				<li>2014-2015</li>
+				<li><a href="#">Garuda Indonesia</a></li>
+				<li>System Designer</li> -->
+			</ul>
+		</div>
+    </div>
+
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h2>Technical Skills</h2>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+                <li>HTML / CSS / Javascript</li>
+                
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Development</li>
+				<li>Java / Python / SQL</li>
+			</ul>
+		</div>
+	</div>
+
+    <footer>
+		<div class="container">
+			<div class="units-row">
+
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:kaysu02@utexas.edu"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/flamekaizar"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://dribbble.com/flamekaizar"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="http://behance.com/flamekaizar"><i class="fa fa-behance"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+   	<!-- Javascript -->
+	<script src="jquery.min.js"></script>
+	<script src="typed.min.js"></script>
+
+
+
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		strings: ["Kaylee", "a UI/UX designer", " a machine learning enthusiast"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
+
