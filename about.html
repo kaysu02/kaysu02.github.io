@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>K2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!-- border -->
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+
+
+    <!-- Navigation -->
+    <div class="nav" id="nav">
+        <!-- <div class="container"> -->
+        <ul class=nav-list>
+
+            <a href="index.html">Work</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <class="active"><a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <a href="mailto:kaysu02@utexas.edu">Contact</a>
+        </ul>
+        <!-- </div> -->
+    </div>
+
+
+    <div class="about">
+
+        <img src="ava.jpg">
+
+        <p>Hello, happy to see you :)</p> <br>
+        <!-- <h1>Hi, I'm Kaylee</h1> -->
+        <h1>I'm <span id="typed"></span></h1>
+        <br>
+        <p>
+            I am currently pursuing a computer science major and business minor at the University of Texas at Austin.
+        </p>
+
+
+
+    </div>
+
+    <br><br><br><br>
+    <div class="nav">
+        <!-- <div class="container"> -->
+        <ul class=nav-list>
+
+            <a href="file:///Users/kayleesu/Desktop/Portfolio2/Su_Kaylee.pdf">Resume</a>&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <a href="https://www.linkedin.com/in/kaylee-su">LinkedIn</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://medium.com/@kaysu02">Medium</a>
+        </ul>
+        <!-- </div> -->
+    </div>
+    <br><br>
+
+
+
+    <!-- Javascript -->
+    <script src="jquery.min.js"></script>
+    <script src="typed.min.js"></script>
+
+    <script>
+        function newTyped() { } $(function () {
+            $("#typed").typed({
+                strings: ["Kaylee", "a UI/UX designer", "a machine learning enthusiast"],
+
+                typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
+            }), $(".reset").click(function () { $("#typed").typed("reset") })
+        });
+    </script>
+</body>
+
+</html>

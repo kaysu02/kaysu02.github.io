@@ -1,0 +1,224 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  background-color: rgb(252, 253, 253);
+  margin: 5vw;
+
+}
+
+
+#top, #bottom, #left, #right {
+	background:  rgb(226, 234, 243);
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-weight: 1000;
+  font-size: 1.8em;
+  color:  #1f1f1f 
+  
+}
+
+h4{
+  font-family: "Montserrat";
+  letter-spacing: 0.8vh;
+  font-size: 1em;
+  font-weight: 60000;
+  color:rgb(55, 99, 150);
+
+}
+
+h5{
+  font-family: "Montserrat";
+  letter-spacing: 0.6vh;
+  font-size: 1.5em;
+  font-weight: 60000;
+  color:rgb(15, 59, 110);
+
+}
+
+h6{
+  font-family: "Montserrat";
+  color: #0a0a0a;
+  font-size: 1.1em;
+  line-height: 1.75em; 
+  font-weight: 10000;
+}
+
+a, p, li {
+  font-family: "Montserrat";
+  color: #5c5b5b;
+  font-size: 1em;
+  line-height: 1.75em; 
+  font-weight: bolder;}
+
+  .about{
+    padding-top: 20px;;
+    text-align: left;
+  }
+  .about .contact-list ul a{
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(155, 169, 236, 0.822); }
+    
+    .about .contact-list ul a:hover {
+      border-bottom: 1px solid #333333; }
+
+    .about img {
+      width: 30vw;
+      height: 70vh;
+      height: auto;
+      float: left;
+      text-align: right;
+      margin-right: 30px;
+  }
+
+
+
+
+
+
+
+
+
+.container {
+  margin: 8vw;
+  max-width: 700px;
+   }
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 176px;
+  width: 176px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(39, 43, 65, 0.822);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-family: "Nanum Myeongjo";
+    font-size: 15px;
+    
+    /* top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    text-align: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  footer {
+    text-align: right; } }
+
+  .nav .nav-list{
+    text-align: right;
+    padding-top: 3px; 
+    
+    font-size: .9em;
+    color: #8c8c8c;
+    /* margin-right: 30px; */
+
+  }.nav .nav-list a {
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(155, 169, 236, 0.822); }
+    .nav .nav-list a:hover {
+    border-bottom: 1px solid #333333; }
+   
+/* .section.second {
+  margin-bottom: 20px; }
+.section .container {
+  position: relative; }
+  .section .container h1 {
+    margin-bottom: 30px;
+    position: relative; } */
+
+
+  
+  /* .intro h1:before {
+    position: absolute;
+    left: 60px;
+    top: -80px;
+    font-size: 300px;
+    z-index: -1;
+    color: #f4f4f4; } */
+
+.work .work-list {
+  margin-left: 0px; }
+  .work .work-list li {
+    list-style: none;
+    font-size: 1em;
+    color: #696969; }
+    .work .work-list li a {
+      padding-bottom: 5px;
+      font-size: 1.2em;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(155, 169, 236, 0.822); 
+    }
+    .work .work-list li a:hover {
+      border-bottom: 1px solid #333333; 
+    }
+
+  .work img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    padding: 10px;
+     border: 3px solid rgba(194, 198, 219, 0.822);
+
+   }
+
+      .contact .contact-list{
+        padding-top: 23px; 
+        font-size: 1em;
+        color: #8c8c8c;
+        padding-left: 0px;
+      }.contact .contact-list a {
+        padding-bottom: 5px;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(155, 169, 236, 0.822); }
+        .contact .contact-list a:hover {
+        border-bottom: 1px solid #333333; }
+     
