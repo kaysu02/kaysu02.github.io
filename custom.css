@@ -73,6 +73,14 @@ h6{
   font-weight: 10000;
 }
 
+h7{
+  font-family: "Montserrat";
+  color: rgb(15, 59, 110);
+  font-size: 3em;
+  line-height: 1.75em; 
+  font-weight: 10000;
+}
+
 a, p, li {
   font-family: "Montserrat";
   color: #5c5b5b;
@@ -244,3 +252,46 @@ a, p, li {
     /* text-align: right; */
     /* margin-right: 30px; */
 }
+
+.page{
+  padding-top: 20px;;
+  text-align: center;
+  line-height: 30px;
+ 
+}
+/* .page .contact-list ul a{
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(155, 169, 236, 0.822); }
+  
+  .page .contact-list ul a:hover {
+    border-bottom: 1px solid #333333; } */
+
+  .page img {
+    width: 30vw;
+    height: 70vh;
+    height: auto;
+    float: left;
+    text-align: right;
+    margin-right: 30px;
+    
+}
+.page li{
+  font-size: larger;
+  list-style-type: none;
+}
+
+.page li a {
+  padding-bottom: 5px;
+  line-height: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(155, 169, 236, 0.822); 
+}
+.page li a:hover {
+ 
+  border-bottom: 1px solid #333333; 
+}
+
+
+
